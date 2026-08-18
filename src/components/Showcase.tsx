@@ -82,7 +82,7 @@ function ProjectCard({ project }: { project: Project }) {
       initial="rest"
       whileHover="hover"
       variants={cardHover}
-      className="group rounded-2xl border border-line overflow-hidden bg-surface/40"
+      className="group min-w-0 rounded-2xl border border-line overflow-hidden bg-surface/40"
     >
       <a
         href={project.liveUrl}
@@ -135,7 +135,7 @@ function CertificateCard({ certificate, onClick }: { certificate: Certificate; o
       initial="rest"
       whileHover="hover"
       variants={cardHover}
-      className="text-left rounded-2xl border border-line overflow-hidden bg-surface/40 group w-full"
+      className="text-left min-w-0 rounded-2xl border border-line overflow-hidden bg-surface/40 group w-full"
     >
       <div className="aspect-video w-full overflow-hidden">
         <img
@@ -243,6 +243,7 @@ export default function Showcase() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -20 }}
                           transition={{ duration: 0.35, ease: EASE }}
+                          className="min-w-0"
                         >
                           <ProjectCard project={p} />
                         </motion.div>
@@ -273,6 +274,7 @@ export default function Showcase() {
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: -20 }}
                           transition={{ duration: 0.35, ease: EASE }}
+                          className="min-w-0"
                         >
                           <CertificateCard certificate={c} onClick={() => setLightboxCert(c)} />
                         </motion.div>
