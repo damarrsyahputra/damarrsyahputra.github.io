@@ -34,8 +34,14 @@ body {
 }
 
 .text-outline-bg {
-  -webkit-text-stroke: 1.5px var(--color-ink);
+  -webkit-text-stroke: 1px var(--color-ink);
   color: var(--color-bg);
+}
+
+@media (min-width: 768px) {
+  .text-outline-bg {
+    -webkit-text-stroke-width: 1.5px;
+  }
 }
 
 .vertical-label {
