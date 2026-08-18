@@ -34,7 +34,7 @@ body {
 }
 
 .text-outline-bg {
-  -webkit-text-stroke: 1px var(--color-ink);
+  -webkit-text-stroke: 0.25px var(--color-ink);
   color: var(--color-bg);
 }
 
