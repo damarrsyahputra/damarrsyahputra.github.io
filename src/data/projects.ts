@@ -8,6 +8,13 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Word World",
+    platform: "AI Agent + React",
+    image: "/projects/word_world.png",
+    githubUrl: "https://github.com/damarrsyahputra/word-world",
+    liveUrl: "https://wordworld-app.vercel.app/",
+  },
+  {
     title: "Monitor Harga Pangan",
     platform: "React + Supabase",
     image: "/projects/monitor_harga_pangan.png",
@@ -16,7 +23,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Coffeshop Sales Report",
-    platform: "Streamlit",
+    platform: "Analytics Dashboard + Streamlit",
     image: "/projects/coffee_shop_dashboard.png",
     githubUrl: "https://github.com/damarrsyahputra/coffee-shop-sales-dashboard",
     liveUrl: "https://coffee-shop-sales-dashboard-damar.streamlit.app/",
