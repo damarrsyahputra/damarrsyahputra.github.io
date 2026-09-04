@@ -30,7 +30,7 @@ export const CERTIFICATES: Certificate[] = [
   },
   {
     title: "Belajar Analisis Data dengan Python",
-    platform: "Coursera",
+    platform: "Dicoding",
     image: "/certificate/preview/Belajar%20Analisis%20Data%20dengan%20Python.jpg",
     fileType: "image",
     fileUrl: "/certificate/Belajar%20Analisis%20Data%20dengan%20Python.pdf",
