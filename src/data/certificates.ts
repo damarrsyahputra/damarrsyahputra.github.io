@@ -29,6 +29,13 @@ export const CERTIFICATES: Certificate[] = [
     fileUrl: "/certificate/DeepLearning%20Specialization.jpeg",
   },
   {
+    title: "Belajar Analisis Data dengan Python",
+    platform: "Coursera",
+    image: "/certificate/preview/Belajar%20Analisis%20Data%20dengan%20Python.jpg",
+    fileType: "image",
+    fileUrl: "/certificate/Belajar%20Analisis%20Data%20dengan%20Python.pdf",
+  },
+  {
     title: "Seminar Nasional \"Shaping the Future of Digital Illustration in the AI Era: Creativity, Copyright and Ethics\"",
     platform: "HM-TIF UNISSULA",
     image: "/certificate/preview/Seminar_Nasional_HM_TIF_UNISSULA.jpg",
