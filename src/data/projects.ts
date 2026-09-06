@@ -9,28 +9,28 @@ export type Project = {
 export const PROJECTS: Project[] = [
   {
     title: "Word World",
-    platform: "AI Agent + React",
+    platform: "AI Agent",
     image: "/projects/word_world.png",
     githubUrl: "https://github.com/damarrsyahputra/word-world",
-    liveUrl: "https://wordworld-app.vercel.app/",
+    liveUrl: "https://intowordworld.vercel.app/",
   },
   {
     title: "Monitor Harga Pangan",
-    platform: "React + Supabase",
+    platform: "Real-time Dashboard",
     image: "/projects/monitor_harga_pangan.png",
     githubUrl: "https://github.com/damarrsyahputra/monitor-harga-bahan-pokok",
     liveUrl: "https://monitor-harga-bahan-pokok.vercel.app/",
   },
   {
     title: "Coffeshop Sales Report",
-    platform: "Analytics Dashboard + Streamlit",
+    platform: "Analytics Dashboard",
     image: "/projects/coffee_shop_dashboard.png",
     githubUrl: "https://github.com/damarrsyahputra/coffee-shop-sales-dashboard",
     liveUrl: "https://coffee-shop-sales-dashboard-damar.streamlit.app/",
   },
   {
     title: "Airport Threat Detection",
-    platform: "Computer Vision + Streamlit",
+    platform: "Computer Vision",
     image: "/projects/airport_threat_detection.png",
     githubUrl: "https://github.com/damarrsyahputra/airport-threat-detection",
     liveUrl: "https://airport-threat-detection.streamlit.app/",
